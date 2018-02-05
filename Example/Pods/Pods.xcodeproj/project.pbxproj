@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		046CC0E2ED0820F1C8C42987C79831BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		002345E5A36D0C0320A512B528A25B1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
 		2E907956E33B51096E50C75A23E5C2BC /* Pods-VIPDroidPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25BD856F57A65B92EEF3190131A65C53 /* Pods-VIPDroidPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		38A4F64D34B0D83A9030CAF350CA89B4 /* VIPDroidPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF79B44F0C67B0067BE6192445CE1EF8 /* VIPDroidPod-dummy.m */; };
 		39AF37A285218945027C4AE987A846F7 /* Pods-VIPDroidPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB3D657A3DE2ADA73518E936A0C4E57 /* Pods-VIPDroidPod_Tests-dummy.m */; };
-		5167C13004CA0379C97218B1831A57AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5167C13004CA0379C97218B1831A57AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 		5498EBEBA0472B05FDC25984F582E37F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69857438CCDFCAF3E0A01C4D5F89808B /* ReplaceMe.swift */; };
 		964770E0457E5B28BB05E1A5DD9BCC78 /* Pods-VIPDroidPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 250D7F33D7D9E267B736C0732FBC060B /* Pods-VIPDroidPod_Example-dummy.m */; };
 		AA06E0697077BE098199AE55C430B534 /* Pods-VIPDroidPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03930DA05C8B675033D9A715CF24A9A5 /* Pods-VIPDroidPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B0867F8C2C44216E685BD624DC8C67E2 /* VIPDroidPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB31AFE8DD5ECB692F05C3870CA3B5E0 /* VIPDroidPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA75DAFE2E1D7F6F49D4E47635401C19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DA75DAFE2E1D7F6F49D4E47635401C19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		E307B44BC36F68AF589487A74C29E1D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,39 +41,41 @@
 		25BD856F57A65B92EEF3190131A65C53 /* Pods-VIPDroidPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VIPDroidPod_Tests-umbrella.h"; sourceTree = "<group>"; };
 		363F5132C218969754F2130F76F759BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3957107A206EA1F9676263F1B255A4BA /* Pods-VIPDroidPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIPDroidPod_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3D5FC578E27C03EE698540D48B23F97C /* VIPDroidPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = VIPDroidPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3D5FC578E27C03EE698540D48B23F97C /* VIPDroidPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = VIPDroidPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		41A55A8E71B2591F0A48ABA27B9A05A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E6C74773DBC5D94AD073DE25FCEEFFD /* Pods-VIPDroidPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VIPDroidPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		69857438CCDFCAF3E0A01C4D5F89808B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = VIPDroidPod/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		7E9734DC360F52E4DE4A5D2CB50F3916 /* Pods_VIPDroidPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPDroidPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		81C6E2C0168003DB7EF2E4D021857530 /* VIPDroidPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = VIPDroidPod.modulemap; sourceTree = "<group>"; };
+		7E9734DC360F52E4DE4A5D2CB50F3916 /* Pods_VIPDroidPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIPDroidPod_Example.framework; path = "Pods-VIPDroidPod_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81C6E2C0168003DB7EF2E4D021857530 /* VIPDroidPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = VIPDroidPod.modulemap; sourceTree = "<group>"; };
 		8722A762ED43CDDA1201A277BBFD39AA /* Pods-VIPDroidPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIPDroidPod_Tests-resources.sh"; sourceTree = "<group>"; };
-		87967A3F58CA8795F48EBA14D70EA5A9 /* Pods-VIPDroidPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VIPDroidPod_Tests.modulemap"; sourceTree = "<group>"; };
-		8C5BC02C280A9543532C745116C4110A /* Pods_VIPDroidPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VIPDroidPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		87967A3F58CA8795F48EBA14D70EA5A9 /* Pods-VIPDroidPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VIPDroidPod_Tests.modulemap"; sourceTree = "<group>"; };
+		8C5BC02C280A9543532C745116C4110A /* Pods_VIPDroidPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VIPDroidPod_Tests.framework; path = "Pods-VIPDroidPod_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		965C5DB24318E95C44C4CFAD5943C0CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3D00810BC14A42B27FB7ED666FBAF68 /* Pods-VIPDroidPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIPDroidPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B026DD23AF7EA36BE22A125F765D4114 /* Pods-VIPDroidPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIPDroidPod_Example-resources.sh"; sourceTree = "<group>"; };
 		B25321C350C36D3B196C8AA60CA8DF42 /* Pods-VIPDroidPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIPDroidPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B3DC7B24530C4EDD3AD4FC4596C2A6D4 /* Pods-VIPDroidPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VIPDroidPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C732E076640CE5C9763284DEBDAF6389 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CB1DD91DEE76399C3A01E9023953E8F4 /* VIPDroidPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VIPDroidPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C732E076640CE5C9763284DEBDAF6389 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		CB1DD91DEE76399C3A01E9023953E8F4 /* VIPDroidPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VIPDroidPod.framework; path = VIPDroidPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF79B44F0C67B0067BE6192445CE1EF8 /* VIPDroidPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VIPDroidPod-dummy.m"; sourceTree = "<group>"; };
 		D0B80BCEAC272469A6B41F62E6EE51AE /* Pods-VIPDroidPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VIPDroidPod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DB31AFE8DD5ECB692F05C3870CA3B5E0 /* VIPDroidPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VIPDroidPod-umbrella.h"; sourceTree = "<group>"; };
 		DF10E9C723F3AB7314E7D03894031E93 /* VIPDroidPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VIPDroidPod.xcconfig; sourceTree = "<group>"; };
-		EBBAA4BB08C960E2FD79D82D160FF769 /* Pods-VIPDroidPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-VIPDroidPod_Example.modulemap"; sourceTree = "<group>"; };
-		F56224DEC82322AC1838ACC768C113AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EBBAA4BB08C960E2FD79D82D160FF769 /* Pods-VIPDroidPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VIPDroidPod_Example.modulemap"; sourceTree = "<group>"; };
+		F56224DEC82322AC1838ACC768C113AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F65DE05036641DD42239500262C754B5 /* Pods-VIPDroidPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VIPDroidPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		08D6181E733FE5D35D27CCCC14322CBF /* Frameworks */ = {
+		B49754027C65CFC83545FBB5CA7AF68E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046CC0E2ED0820F1C8C42987C79831BC /* Foundation.framework in Frameworks */,
+				E307B44BC36F68AF589487A74C29E1D9 /* Foundation.framework in Frameworks */,
+				002345E5A36D0C0320A512B528A25B1C /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +106,23 @@
 				CB1DD91DEE76399C3A01E9023953E8F4 /* VIPDroidPod.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		51F3BC044D1FF236AC007BA206113783 /* Pod */ = {
@@ -138,7 +158,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				A564AC20990B6CAF0BCD2B03AA9AE05E /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				2F968BA4745C57A925F62150AB4E4A8A /* Products */,
 				96B6DB503C4B1DE2D3D1E60A50F4A10A /* Targets Support Files */,
 			);
@@ -177,22 +197,6 @@
 			);
 			name = "Pods-VIPDroidPod_Example";
 			path = "Target Support Files/Pods-VIPDroidPod_Example";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		E3F26A8629552DBB5386B742F43B6C2B /* Support Files */ = {
@@ -255,7 +259,7 @@
 			buildConfigurationList = 1F2D78665C26EC9CD805CF4682F6DF6F /* Build configuration list for PBXNativeTarget "VIPDroidPod" */;
 			buildPhases = (
 				E7EB921CEC2B74DE74324FB373888EF3 /* Sources */,
-				08D6181E733FE5D35D27CCCC14322CBF /* Frameworks */,
+				B49754027C65CFC83545FBB5CA7AF68E /* Frameworks */,
 				E72A30C894184643E57EE72973EA4C02 /* Headers */,
 			);
 			buildRules = (
@@ -309,7 +313,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -575,7 +579,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;

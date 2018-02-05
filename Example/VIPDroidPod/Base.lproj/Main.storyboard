@@ -20,11 +20,30 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="pZb-Bq-Rer">
+                                <rect key="frame" x="112" y="56" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Za0-zW-Vdb"/>
+                                    <constraint firstAttribute="height" constant="150" id="vFs-nc-x1d"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pZb-Bq-Rer" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="36" id="1ws-BI-47h"/>
+                            <constraint firstItem="pZb-Bq-Rer" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="s57-qh-kIx"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="testImageView" destination="pZb-Bq-Rer" id="rfL-63-rVj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="profile" width="512" height="513"/>
+    </resources>
 </document>
