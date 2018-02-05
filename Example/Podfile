@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VIPDroidPod_Example' do
+  pod 'VIPDroidPod', :path => '../'
+
+  target 'VIPDroidPod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
