@@ -1,0 +1,6 @@
+framework module VIPDroidPod {
+  umbrella header "VIPDroidPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

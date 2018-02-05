@@ -1,0 +1,16 @@
+PODS:
+  - VIPDroidPod (0.1.0)
+
+DEPENDENCIES:
+  - VIPDroidPod (from `../`)
+
+EXTERNAL SOURCES:
+  VIPDroidPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  VIPDroidPod: 5a7eb10b3151190daaa9cee408065c115e457431
+
+PODFILE CHECKSUM: cd400c7cbfdaf854a0e4e7fd55acf9734ebf3816
+
+COCOAPODS: 1.4.0
